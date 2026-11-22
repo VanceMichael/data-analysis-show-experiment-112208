@@ -1,0 +1,30 @@
+[
+  {
+    "version": "V1",
+    "from": "A",
+    "to": "B",
+    "state": "开放",
+    "limit": "60"
+  },
+  {
+    "version": "V1",
+    "from": "B",
+    "to": "C",
+    "state": "开放",
+    "limit": "35"
+  },
+  {
+    "version": "V2",
+    "from": "A",
+    "to": "B",
+    "state": "开放",
+    "limit": "45"
+  },
+  {
+    "version": "V2",
+    "from": "B",
+    "to": "C",
+    "state": "关闭",
+    "limit": "0"
+  }
+]

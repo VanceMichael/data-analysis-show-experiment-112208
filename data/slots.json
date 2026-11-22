@@ -1,0 +1,162 @@
+[
+  {
+    "window": "W1",
+    "route": "A",
+    "weather": "晴",
+    "assigned": "加场",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W1",
+    "route": "B",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W1",
+    "route": "C",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W2",
+    "route": "A",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W2",
+    "route": "B",
+    "weather": "晴",
+    "assigned": "加场",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W2",
+    "route": "C",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W3",
+    "route": "A",
+    "weather": "雨",
+    "assigned": "加场",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W3",
+    "route": "B",
+    "weather": "雨",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W4",
+    "route": "A",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V2",
+    "announced": "false"
+  },
+  {
+    "window": "W4",
+    "route": "B",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V2",
+    "announced": "false"
+  },
+  {
+    "window": "W4",
+    "route": "C",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V2",
+    "announced": "false"
+  },
+  {
+    "window": "W0",
+    "route": "A",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W0",
+    "route": "B",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W0",
+    "route": "C",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W5",
+    "route": "A",
+    "weather": "晴",
+    "assigned": "加场",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W5",
+    "route": "B",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W5",
+    "route": "C",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W6",
+    "route": "A",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W6",
+    "route": "B",
+    "weather": "晴",
+    "assigned": "加场",
+    "version": "V1",
+    "announced": "true"
+  },
+  {
+    "window": "W6",
+    "route": "C",
+    "weather": "晴",
+    "assigned": "对照",
+    "version": "V1",
+    "announced": "true"
+  }
+]

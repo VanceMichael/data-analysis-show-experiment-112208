@@ -1,0 +1,155 @@
+[
+  {
+    "ticket": "T1",
+    "window": "W1",
+    "route": "A",
+    "entry": "1",
+    "exit": "30",
+    "checkin": "P1",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T2",
+    "window": "W1",
+    "route": "B",
+    "entry": "2",
+    "exit": "48",
+    "checkin": "?",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T2",
+    "window": "W1",
+    "route": "A",
+    "entry": "8",
+    "exit": "40",
+    "checkin": "P1",
+    "repeat": "yes"
+  },
+  {
+    "ticket": "T3",
+    "window": "W1",
+    "route": "C",
+    "entry": "3",
+    "exit": "18",
+    "checkin": "P3",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T4",
+    "window": "W2",
+    "route": "A",
+    "entry": "3",
+    "exit": "19",
+    "checkin": "P1",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T5",
+    "window": "W2",
+    "route": "B",
+    "entry": "5",
+    "exit": "42",
+    "checkin": "P2",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T6",
+    "window": "W2",
+    "route": "C",
+    "entry": "6",
+    "exit": "35",
+    "checkin": "?",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T7",
+    "window": "W3",
+    "route": "B",
+    "entry": "7",
+    "exit": "22",
+    "checkin": "?",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T8",
+    "window": "W0",
+    "route": "A",
+    "entry": "2",
+    "exit": "21",
+    "checkin": "P1",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T9",
+    "window": "W0",
+    "route": "B",
+    "entry": "2",
+    "exit": "27",
+    "checkin": "P2",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T10",
+    "window": "W0",
+    "route": "C",
+    "entry": "4",
+    "exit": "21",
+    "checkin": "P3",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T11",
+    "window": "W5",
+    "route": "A",
+    "entry": "2",
+    "exit": "41",
+    "checkin": "P1",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T12",
+    "window": "W5",
+    "route": "B",
+    "entry": "1",
+    "exit": "31",
+    "checkin": "P2",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T13",
+    "window": "W5",
+    "route": "C",
+    "entry": "5",
+    "exit": "32",
+    "checkin": "P3",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T14",
+    "window": "W6",
+    "route": "A",
+    "entry": "1",
+    "exit": "31",
+    "checkin": "?",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T15",
+    "window": "W6",
+    "route": "B",
+    "entry": "2",
+    "exit": "34",
+    "checkin": "P2",
+    "repeat": "no"
+  },
+  {
+    "ticket": "T16",
+    "window": "W6",
+    "route": "C",
+    "entry": "5",
+    "exit": "22",
+    "checkin": "P3",
+    "repeat": "no"
+  }
+]

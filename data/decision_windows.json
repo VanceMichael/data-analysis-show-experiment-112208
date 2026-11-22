@@ -1,0 +1,23 @@
+[
+  {
+    "window": "W7",
+    "options": "A+B+C",
+    "version": "V2",
+    "max_added": "1",
+    "min_usable_comparisons": "2"
+  },
+  {
+    "window": "W8",
+    "options": "A+B+C",
+    "version": "V2",
+    "max_added": "1",
+    "min_usable_comparisons": "2"
+  },
+  {
+    "window": "W9",
+    "options": "A+B+C",
+    "version": "V2",
+    "max_added": "1",
+    "min_usable_comparisons": "2"
+  }
+]
