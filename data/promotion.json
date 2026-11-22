@@ -1,0 +1,8 @@
+[
+  {
+    "version": "V2",
+    "min_observations": "2",
+    "min_advantage": "0",
+    "max_congestion": "0.85"
+  }
+]

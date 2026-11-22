@@ -1,0 +1,74 @@
+[
+  {
+    "window": "W7",
+    "route": "A",
+    "guide": "G1",
+    "actor": "E1",
+    "role": "旅行团基准",
+    "reserved": "15",
+    "state": "已公示"
+  },
+  {
+    "window": "W7",
+    "route": "B",
+    "guide": "G1",
+    "actor": "E2",
+    "role": "候选加场",
+    "reserved": "10",
+    "state": "未公示"
+  },
+  {
+    "window": "W8",
+    "route": "A",
+    "guide": "G2",
+    "actor": "E2",
+    "role": "候选加场",
+    "reserved": "8",
+    "state": "未公示"
+  },
+  {
+    "window": "W8",
+    "route": "B",
+    "guide": "G1",
+    "actor": "E1",
+    "role": "候选加场",
+    "reserved": "12",
+    "state": "未公示"
+  },
+  {
+    "window": "W8",
+    "route": "C",
+    "guide": "G3",
+    "actor": "E3",
+    "role": "候选加场",
+    "reserved": "15",
+    "state": "未公示"
+  },
+  {
+    "window": "W9",
+    "route": "A",
+    "guide": "G2",
+    "actor": "E2",
+    "role": "旅行团基准",
+    "reserved": "10",
+    "state": "已公示"
+  },
+  {
+    "window": "W9",
+    "route": "B",
+    "guide": "G1",
+    "actor": "E1",
+    "role": "周末推广",
+    "reserved": "12",
+    "state": "已接受"
+  },
+  {
+    "window": "W9",
+    "route": "C",
+    "guide": "G3",
+    "actor": "E3",
+    "role": "候选加场",
+    "reserved": "10",
+    "state": "未公示"
+  }
+]

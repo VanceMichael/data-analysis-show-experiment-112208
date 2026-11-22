@@ -1,0 +1,83 @@
+[
+  {
+    "window": "W7",
+    "route": "A",
+    "planned_capacity": "58",
+    "egress_reserve": "14",
+    "source": "亲子混合",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W7",
+    "route": "B",
+    "planned_capacity": "40",
+    "egress_reserve": "18",
+    "source": "亲子混合",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W8",
+    "route": "A",
+    "planned_capacity": "62",
+    "egress_reserve": "16",
+    "source": "团体为主",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W8",
+    "route": "B",
+    "planned_capacity": "54",
+    "egress_reserve": "16",
+    "source": "团体为主",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W8",
+    "route": "C",
+    "planned_capacity": "42",
+    "egress_reserve": "10",
+    "source": "散客为主",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W9",
+    "route": "A",
+    "planned_capacity": "50",
+    "egress_reserve": "12",
+    "source": "亲子混合",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W9",
+    "route": "B",
+    "planned_capacity": "55",
+    "egress_reserve": "12",
+    "source": "亲子混合",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W9",
+    "route": "C",
+    "planned_capacity": "48",
+    "egress_reserve": "14",
+    "source": "散客为主",
+    "revision": "1",
+    "condition": "可用"
+  },
+  {
+    "window": "W9",
+    "route": "B",
+    "planned_capacity": "47",
+    "egress_reserve": "18",
+    "source": "亲子混合",
+    "revision": "2",
+    "condition": "维修"
+  }
+]

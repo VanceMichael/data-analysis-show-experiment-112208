@@ -11,6 +11,10 @@
 - `observations.json` 记录字段为 `ticket`、`window`、`route`、`entry`、`exit`、`checkin`、`repeat`。
 - `control.json` 记录字段为 `window`、`route`、`start`、`end`、`event`、`occupancy`。
 - `decision_windows.json` 记录字段为 `window`、`options`、`version`、`max_added`、`min_usable_comparisons`。
+- `booking.json` 记录字段为 `window`、`route`、`guide`、`actor`、`role`、`reserved`、`state`。
+- `operations.json` 记录字段为 `window`、`route`、`planned_capacity`、`egress_reserve`、`source`、`revision`、`condition`。
+- `decisions.json` 记录字段为 `accepted_window`、`route`、`evidence_version`、`kind`、`state`。
+- `promotion.json` 记录字段为 `version`、`min_observations`、`min_advantage`、`max_congestion`。
 
 ## 运行
 
