@@ -23,6 +23,25 @@
 ```sh
 npm ci --offline --ignore-scripts
 npm test
+npm run analyze
 ```
+
+`npm run analyze` 会生成：
+
+- `output/analysis.json`：窗口可比性、有效停留、净流量、拥堵比率、推广阈值和识别矩阵；
+- `output/schedule.json`：建议的 W7–W9 场次选择、承诺场、阻断候选和条件改派；
+- `output/notifications.json`：需要发给游线/排班会的识别条件、人员和配额通知；
+- `output/排班说明.md`：可直接带到排班会的中文说明。
+
+单场查询：
+
+```sh
+node src/cli.js session W1 A
+node src/cli.js session W7 B
+node src/cli.js session W9 B
+node src/cli.js notify
+```
+
+查询结果区分未公布备选、公开约定场和现场取消场，并给出版本化邻线、拥堵责任方向、容量/人员阻断以及该场仍可回答的分析问题。分析代码只读取 `data/`，不会改写原始排期或 `decisions.json`。
 
 `npm run data:check` 检查合成资料能否读取并核对相关记录的引用。资料校验脚本可以独立运行。

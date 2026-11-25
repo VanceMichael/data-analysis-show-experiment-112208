@@ -1,0 +1,44 @@
+[
+  {
+    "window": "W7",
+    "selectedAddedRoute": null,
+    "committedBaselineRoutes": [
+      "A"
+    ],
+    "asRecordedUnavailable": [
+      "B"
+    ],
+    "missingPlanningRecord": [
+      "C"
+    ],
+    "role": "V2/亲子来源对照与承诺基准场",
+    "contingent": {
+      "ifBeforePublication": "将 W7/B 的 G1 改派为经确认可值班的 G2/G3",
+      "then": "可改跑 B 加场重复臂，但会失去 W7 无加场对照；需另行补对照"
+    }
+  },
+  {
+    "window": "W8",
+    "selectedAddedRoute": "A",
+    "observationRoutes": [
+      "B",
+      "C"
+    ],
+    "maxAdded": 1,
+    "role": "V2/团体来源的 A 直接臂与 B 邻线观测；C 仅作独立散客层",
+    "meetsSeparateIdentificationNow": false
+  },
+  {
+    "window": "W9",
+    "selectedAddedRoute": "B",
+    "selectionSource": "decisions.json 已签周末推广 + booking 已接受",
+    "committedBaselineRoutes": [
+      "A"
+    ],
+    "blockedUnpublishedRoutes": [
+      "C"
+    ],
+    "role": "承诺周末场，同时作为 V2/亲子来源 B 直接臂与 A 邻线观测",
+    "identificationNotification": "V2_IDENTIFICATION_GAP"
+  }
+]

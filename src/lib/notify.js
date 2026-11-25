@@ -1,0 +1,30 @@
+import { buildSchedulePlan } from './planning.js'
+
+export function buildNotifications(dataset, analysis, plan = buildSchedulePlan(dataset, analysis)) {
+  return [
+    {
+      to: ['W9', 'B', '排班会'],
+      code: 'V2_IDENTIFICATION_GAP',
+      message:
+        'W9/B 的 V1 已签周末推广记录保留；但 V2 已关闭 B-C，原 B→C 邻线对照失效，且现有同来源/开放路段组合不足以分别识别 V2 直接与邻场效应。请通知 W9/B；承诺场次仍执行并按 V2 采集数据，不得把 V1 结论宣称为 V2 已验证。',
+      preserveRecord: dataset.decisions[0] ?? null,
+      identification: plan.identification.failedPublishedComparisons,
+      withdrawal: plan.identification.withdrawal,
+      continueUnrelated: [
+        'W9/A 已公示旅行团基准',
+        '其他经核对有独立证据且不受 B-C 关闭影响的周末场次',
+      ],
+    },
+    {
+      to: ['W7', 'B', '排班会'],
+      code: 'STAFF_CONFLICT_UNPUBLISHED',
+      message:
+        'W7/B 候选按现 booking 与已公示 W7/A 共用 G1；未公示前可改派具资格人员，否则不得加场。已公示场次人员即使遇现场取消，也不得在同一执行窗口改派。',
+    },
+    {
+      to: ['W9', 'C'],
+      code: 'ADDED_QUOTA_OCCUPIED',
+      message: 'W9 max_added=1 已由 B 的公开推广占用；C 为未公布候选，不能同轮加场。',
+    },
+  ]
+}

@@ -7,7 +7,12 @@
     "node": "22.x"
   },
   "scripts": {
+    "start": "node src/analyze.js",
     "test": "node --test",
-    "data:check": "node --test test/data.test.js"
+    "data:check": "node --test test/data.test.js",
+    "analyze": "node src/analyze.js",
+    "briefing": "node src/analyze.js",
+    "session": "node src/cli.js session",
+    "notify": "node src/cli.js notify"
   }
 }

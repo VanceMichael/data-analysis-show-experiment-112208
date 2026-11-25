@@ -1,0 +1,3253 @@
+{
+  "generatedAt": "2026-11-25T09:55:35.468Z",
+  "thresholds": {
+    "version": "V2",
+    "min_observations": "2",
+    "min_advantage": "0",
+    "max_congestion": "0.85"
+  },
+  "analysis": {
+    "observationSummary": {
+      "tickets": [
+        {
+          "ticket": "T1",
+          "window": "W1",
+          "assignedRoute": "A",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T1",
+              "window": "W1",
+              "route": "A",
+              "entry": "1",
+              "exit": "30",
+              "checkin": "P1",
+              "repeat": "no",
+              "entryMinute": 1,
+              "exitMinute": 30,
+              "duration": 29,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "A"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T2",
+          "window": "W1",
+          "assignedRoute": "B",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T2",
+              "window": "W1",
+              "route": "B",
+              "entry": "2",
+              "exit": "48",
+              "checkin": "?",
+              "repeat": "no",
+              "entryMinute": 2,
+              "exitMinute": 48,
+              "duration": 46,
+              "checkinKnown": false,
+              "flowEffective": true,
+              "confirmedEffective": false
+            },
+            {
+              "ticket": "T2",
+              "window": "W1",
+              "route": "A",
+              "entry": "8",
+              "exit": "40",
+              "checkin": "P1",
+              "repeat": "yes",
+              "entryMinute": 8,
+              "exitMinute": 40,
+              "duration": 32,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "B",
+            "A"
+          ],
+          "transferred": true,
+          "repeatScan": true,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T3",
+          "window": "W1",
+          "assignedRoute": "C",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T3",
+              "window": "W1",
+              "route": "C",
+              "entry": "3",
+              "exit": "18",
+              "checkin": "P3",
+              "repeat": "no",
+              "entryMinute": 3,
+              "exitMinute": 18,
+              "duration": 15,
+              "checkinKnown": true,
+              "flowEffective": false,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "C"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": false,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T4",
+          "window": "W2",
+          "assignedRoute": "A",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T4",
+              "window": "W2",
+              "route": "A",
+              "entry": "3",
+              "exit": "19",
+              "checkin": "P1",
+              "repeat": "no",
+              "entryMinute": 3,
+              "exitMinute": 19,
+              "duration": 16,
+              "checkinKnown": true,
+              "flowEffective": false,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "A"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": false,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T5",
+          "window": "W2",
+          "assignedRoute": "B",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T5",
+              "window": "W2",
+              "route": "B",
+              "entry": "5",
+              "exit": "42",
+              "checkin": "P2",
+              "repeat": "no",
+              "entryMinute": 5,
+              "exitMinute": 42,
+              "duration": 37,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "B"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T6",
+          "window": "W2",
+          "assignedRoute": "C",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T6",
+              "window": "W2",
+              "route": "C",
+              "entry": "6",
+              "exit": "35",
+              "checkin": "?",
+              "repeat": "no",
+              "entryMinute": 6,
+              "exitMinute": 35,
+              "duration": 29,
+              "checkinKnown": false,
+              "flowEffective": true,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "C"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T7",
+          "window": "W3",
+          "assignedRoute": "B",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T7",
+              "window": "W3",
+              "route": "B",
+              "entry": "7",
+              "exit": "22",
+              "checkin": "?",
+              "repeat": "no",
+              "entryMinute": 7,
+              "exitMinute": 22,
+              "duration": 15,
+              "checkinKnown": false,
+              "flowEffective": false,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "B"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": false,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T8",
+          "window": "W0",
+          "assignedRoute": "A",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T8",
+              "window": "W0",
+              "route": "A",
+              "entry": "2",
+              "exit": "21",
+              "checkin": "P1",
+              "repeat": "no",
+              "entryMinute": 2,
+              "exitMinute": 21,
+              "duration": 19,
+              "checkinKnown": true,
+              "flowEffective": false,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "A"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": false,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T9",
+          "window": "W0",
+          "assignedRoute": "B",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T9",
+              "window": "W0",
+              "route": "B",
+              "entry": "2",
+              "exit": "27",
+              "checkin": "P2",
+              "repeat": "no",
+              "entryMinute": 2,
+              "exitMinute": 27,
+              "duration": 25,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "B"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T10",
+          "window": "W0",
+          "assignedRoute": "C",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T10",
+              "window": "W0",
+              "route": "C",
+              "entry": "4",
+              "exit": "21",
+              "checkin": "P3",
+              "repeat": "no",
+              "entryMinute": 4,
+              "exitMinute": 21,
+              "duration": 17,
+              "checkinKnown": true,
+              "flowEffective": false,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "C"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": false,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T11",
+          "window": "W5",
+          "assignedRoute": "A",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T11",
+              "window": "W5",
+              "route": "A",
+              "entry": "2",
+              "exit": "41",
+              "checkin": "P1",
+              "repeat": "no",
+              "entryMinute": 2,
+              "exitMinute": 41,
+              "duration": 39,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "A"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T12",
+          "window": "W5",
+          "assignedRoute": "B",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T12",
+              "window": "W5",
+              "route": "B",
+              "entry": "1",
+              "exit": "31",
+              "checkin": "P2",
+              "repeat": "no",
+              "entryMinute": 1,
+              "exitMinute": 31,
+              "duration": 30,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "B"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T13",
+          "window": "W5",
+          "assignedRoute": "C",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T13",
+              "window": "W5",
+              "route": "C",
+              "entry": "5",
+              "exit": "32",
+              "checkin": "P3",
+              "repeat": "no",
+              "entryMinute": 5,
+              "exitMinute": 32,
+              "duration": 27,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "C"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T14",
+          "window": "W6",
+          "assignedRoute": "A",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T14",
+              "window": "W6",
+              "route": "A",
+              "entry": "1",
+              "exit": "31",
+              "checkin": "?",
+              "repeat": "no",
+              "entryMinute": 1,
+              "exitMinute": 31,
+              "duration": 30,
+              "checkinKnown": false,
+              "flowEffective": true,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "A"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": false
+        },
+        {
+          "ticket": "T15",
+          "window": "W6",
+          "assignedRoute": "B",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T15",
+              "window": "W6",
+              "route": "B",
+              "entry": "2",
+              "exit": "34",
+              "checkin": "P2",
+              "repeat": "no",
+              "entryMinute": 2,
+              "exitMinute": 34,
+              "duration": 32,
+              "checkinKnown": true,
+              "flowEffective": true,
+              "confirmedEffective": true
+            }
+          ],
+          "actualRoutes": [
+            "B"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": true,
+          "confirmedEffectiveAny": true
+        },
+        {
+          "ticket": "T16",
+          "window": "W6",
+          "assignedRoute": "C",
+          "assignmentBasis": "earliest_entry_flow_record",
+          "segments": [
+            {
+              "ticket": "T16",
+              "window": "W6",
+              "route": "C",
+              "entry": "5",
+              "exit": "22",
+              "checkin": "P3",
+              "repeat": "no",
+              "entryMinute": 5,
+              "exitMinute": 22,
+              "duration": 17,
+              "checkinKnown": true,
+              "flowEffective": false,
+              "confirmedEffective": false
+            }
+          ],
+          "actualRoutes": [
+            "C"
+          ],
+          "transferred": false,
+          "repeatScan": false,
+          "flowEffectiveAny": false,
+          "confirmedEffectiveAny": false
+        }
+      ],
+      "windows": {
+        "W1": {
+          "uniqueTickets": 3,
+          "routeSegments": 4,
+          "crossRouteTickets": 1,
+          "flowEffectiveTickets": 2,
+          "confirmedEffectiveTickets": 2,
+          "routes": {
+            "A": {
+              "actualVisits": 2,
+              "actualTickets": 2,
+              "effectiveStaysFlow": 2,
+              "effectiveStaysConfirmed": 2,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "B": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 1,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "C": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 0,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 0,
+              "assignedEffectiveAnyRouteFlow": 0
+            }
+          },
+          "tickets": [
+            {
+              "ticket": "T1",
+              "window": "W1",
+              "assignedRoute": "A",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T1",
+                  "window": "W1",
+                  "route": "A",
+                  "entry": "1",
+                  "exit": "30",
+                  "checkin": "P1",
+                  "repeat": "no",
+                  "entryMinute": 1,
+                  "exitMinute": 30,
+                  "duration": 29,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "A"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T2",
+              "window": "W1",
+              "assignedRoute": "B",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T2",
+                  "window": "W1",
+                  "route": "B",
+                  "entry": "2",
+                  "exit": "48",
+                  "checkin": "?",
+                  "repeat": "no",
+                  "entryMinute": 2,
+                  "exitMinute": 48,
+                  "duration": 46,
+                  "checkinKnown": false,
+                  "flowEffective": true,
+                  "confirmedEffective": false
+                },
+                {
+                  "ticket": "T2",
+                  "window": "W1",
+                  "route": "A",
+                  "entry": "8",
+                  "exit": "40",
+                  "checkin": "P1",
+                  "repeat": "yes",
+                  "entryMinute": 8,
+                  "exitMinute": 40,
+                  "duration": 32,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "B",
+                "A"
+              ],
+              "transferred": true,
+              "repeatScan": true,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T3",
+              "window": "W1",
+              "assignedRoute": "C",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T3",
+                  "window": "W1",
+                  "route": "C",
+                  "entry": "3",
+                  "exit": "18",
+                  "checkin": "P3",
+                  "repeat": "no",
+                  "entryMinute": 3,
+                  "exitMinute": 18,
+                  "duration": 15,
+                  "checkinKnown": true,
+                  "flowEffective": false,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "C"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": false,
+              "confirmedEffectiveAny": false
+            }
+          ]
+        },
+        "W2": {
+          "uniqueTickets": 3,
+          "routeSegments": 3,
+          "crossRouteTickets": 0,
+          "flowEffectiveTickets": 2,
+          "confirmedEffectiveTickets": 1,
+          "routes": {
+            "A": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 0,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 0,
+              "assignedEffectiveAnyRouteFlow": 0
+            },
+            "B": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 1,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "C": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 1,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            }
+          },
+          "tickets": [
+            {
+              "ticket": "T4",
+              "window": "W2",
+              "assignedRoute": "A",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T4",
+                  "window": "W2",
+                  "route": "A",
+                  "entry": "3",
+                  "exit": "19",
+                  "checkin": "P1",
+                  "repeat": "no",
+                  "entryMinute": 3,
+                  "exitMinute": 19,
+                  "duration": 16,
+                  "checkinKnown": true,
+                  "flowEffective": false,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "A"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": false,
+              "confirmedEffectiveAny": false
+            },
+            {
+              "ticket": "T5",
+              "window": "W2",
+              "assignedRoute": "B",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T5",
+                  "window": "W2",
+                  "route": "B",
+                  "entry": "5",
+                  "exit": "42",
+                  "checkin": "P2",
+                  "repeat": "no",
+                  "entryMinute": 5,
+                  "exitMinute": 42,
+                  "duration": 37,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "B"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T6",
+              "window": "W2",
+              "assignedRoute": "C",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T6",
+                  "window": "W2",
+                  "route": "C",
+                  "entry": "6",
+                  "exit": "35",
+                  "checkin": "?",
+                  "repeat": "no",
+                  "entryMinute": 6,
+                  "exitMinute": 35,
+                  "duration": 29,
+                  "checkinKnown": false,
+                  "flowEffective": true,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "C"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": false
+            }
+          ]
+        },
+        "W3": {
+          "uniqueTickets": 1,
+          "routeSegments": 1,
+          "crossRouteTickets": 0,
+          "flowEffectiveTickets": 0,
+          "confirmedEffectiveTickets": 0,
+          "routes": {
+            "B": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 0,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 0,
+              "assignedEffectiveAnyRouteFlow": 0
+            }
+          },
+          "tickets": [
+            {
+              "ticket": "T7",
+              "window": "W3",
+              "assignedRoute": "B",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T7",
+                  "window": "W3",
+                  "route": "B",
+                  "entry": "7",
+                  "exit": "22",
+                  "checkin": "?",
+                  "repeat": "no",
+                  "entryMinute": 7,
+                  "exitMinute": 22,
+                  "duration": 15,
+                  "checkinKnown": false,
+                  "flowEffective": false,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "B"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": false,
+              "confirmedEffectiveAny": false
+            }
+          ]
+        },
+        "W0": {
+          "uniqueTickets": 3,
+          "routeSegments": 3,
+          "crossRouteTickets": 0,
+          "flowEffectiveTickets": 1,
+          "confirmedEffectiveTickets": 1,
+          "routes": {
+            "A": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 0,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 0,
+              "assignedEffectiveAnyRouteFlow": 0
+            },
+            "B": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 1,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "C": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 0,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 0,
+              "assignedEffectiveAnyRouteFlow": 0
+            }
+          },
+          "tickets": [
+            {
+              "ticket": "T8",
+              "window": "W0",
+              "assignedRoute": "A",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T8",
+                  "window": "W0",
+                  "route": "A",
+                  "entry": "2",
+                  "exit": "21",
+                  "checkin": "P1",
+                  "repeat": "no",
+                  "entryMinute": 2,
+                  "exitMinute": 21,
+                  "duration": 19,
+                  "checkinKnown": true,
+                  "flowEffective": false,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "A"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": false,
+              "confirmedEffectiveAny": false
+            },
+            {
+              "ticket": "T9",
+              "window": "W0",
+              "assignedRoute": "B",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T9",
+                  "window": "W0",
+                  "route": "B",
+                  "entry": "2",
+                  "exit": "27",
+                  "checkin": "P2",
+                  "repeat": "no",
+                  "entryMinute": 2,
+                  "exitMinute": 27,
+                  "duration": 25,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "B"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T10",
+              "window": "W0",
+              "assignedRoute": "C",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T10",
+                  "window": "W0",
+                  "route": "C",
+                  "entry": "4",
+                  "exit": "21",
+                  "checkin": "P3",
+                  "repeat": "no",
+                  "entryMinute": 4,
+                  "exitMinute": 21,
+                  "duration": 17,
+                  "checkinKnown": true,
+                  "flowEffective": false,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "C"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": false,
+              "confirmedEffectiveAny": false
+            }
+          ]
+        },
+        "W5": {
+          "uniqueTickets": 3,
+          "routeSegments": 3,
+          "crossRouteTickets": 0,
+          "flowEffectiveTickets": 3,
+          "confirmedEffectiveTickets": 3,
+          "routes": {
+            "A": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 1,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "B": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 1,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "C": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 1,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            }
+          },
+          "tickets": [
+            {
+              "ticket": "T11",
+              "window": "W5",
+              "assignedRoute": "A",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T11",
+                  "window": "W5",
+                  "route": "A",
+                  "entry": "2",
+                  "exit": "41",
+                  "checkin": "P1",
+                  "repeat": "no",
+                  "entryMinute": 2,
+                  "exitMinute": 41,
+                  "duration": 39,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "A"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T12",
+              "window": "W5",
+              "assignedRoute": "B",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T12",
+                  "window": "W5",
+                  "route": "B",
+                  "entry": "1",
+                  "exit": "31",
+                  "checkin": "P2",
+                  "repeat": "no",
+                  "entryMinute": 1,
+                  "exitMinute": 31,
+                  "duration": 30,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "B"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T13",
+              "window": "W5",
+              "assignedRoute": "C",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T13",
+                  "window": "W5",
+                  "route": "C",
+                  "entry": "5",
+                  "exit": "32",
+                  "checkin": "P3",
+                  "repeat": "no",
+                  "entryMinute": 5,
+                  "exitMinute": 32,
+                  "duration": 27,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "C"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            }
+          ]
+        },
+        "W6": {
+          "uniqueTickets": 3,
+          "routeSegments": 3,
+          "crossRouteTickets": 0,
+          "flowEffectiveTickets": 2,
+          "confirmedEffectiveTickets": 1,
+          "routes": {
+            "A": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 1,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "B": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 1,
+              "effectiveStaysConfirmed": 1,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 1,
+              "assignedEffectiveAnyRouteFlow": 1
+            },
+            "C": {
+              "actualVisits": 1,
+              "actualTickets": 1,
+              "effectiveStaysFlow": 0,
+              "effectiveStaysConfirmed": 0,
+              "durationQualifiedMissingCheckin": 0,
+              "assignedTickets": 1,
+              "assignedEffectiveOnAssignedRouteFlow": 0,
+              "assignedEffectiveAnyRouteFlow": 0
+            }
+          },
+          "tickets": [
+            {
+              "ticket": "T14",
+              "window": "W6",
+              "assignedRoute": "A",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T14",
+                  "window": "W6",
+                  "route": "A",
+                  "entry": "1",
+                  "exit": "31",
+                  "checkin": "?",
+                  "repeat": "no",
+                  "entryMinute": 1,
+                  "exitMinute": 31,
+                  "duration": 30,
+                  "checkinKnown": false,
+                  "flowEffective": true,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "A"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": false
+            },
+            {
+              "ticket": "T15",
+              "window": "W6",
+              "assignedRoute": "B",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T15",
+                  "window": "W6",
+                  "route": "B",
+                  "entry": "2",
+                  "exit": "34",
+                  "checkin": "P2",
+                  "repeat": "no",
+                  "entryMinute": 2,
+                  "exitMinute": 34,
+                  "duration": 32,
+                  "checkinKnown": true,
+                  "flowEffective": true,
+                  "confirmedEffective": true
+                }
+              ],
+              "actualRoutes": [
+                "B"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": true,
+              "confirmedEffectiveAny": true
+            },
+            {
+              "ticket": "T16",
+              "window": "W6",
+              "assignedRoute": "C",
+              "assignmentBasis": "earliest_entry_flow_record",
+              "segments": [
+                {
+                  "ticket": "T16",
+                  "window": "W6",
+                  "route": "C",
+                  "entry": "5",
+                  "exit": "22",
+                  "checkin": "P3",
+                  "repeat": "no",
+                  "entryMinute": 5,
+                  "exitMinute": 22,
+                  "duration": 17,
+                  "checkinKnown": true,
+                  "flowEffective": false,
+                  "confirmedEffective": false
+                }
+              ],
+              "actualRoutes": [
+                "C"
+              ],
+              "transferred": false,
+              "repeatScan": false,
+              "flowEffectiveAny": false,
+              "confirmedEffectiveAny": false
+            }
+          ]
+        }
+      }
+    },
+    "windowClasses": [
+      {
+        "window": "W0",
+        "version": "V1",
+        "weather": "晴",
+        "announced": true,
+        "hasObs": true,
+        "canceled": false,
+        "pathStopped": false,
+        "comparable": true,
+        "reasons": [],
+        "routes": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "window": "W1",
+        "version": "V1",
+        "weather": "晴",
+        "announced": true,
+        "hasObs": true,
+        "canceled": false,
+        "pathStopped": false,
+        "comparable": true,
+        "reasons": [],
+        "routes": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "window": "W2",
+        "version": "V1",
+        "weather": "晴",
+        "announced": true,
+        "hasObs": true,
+        "canceled": false,
+        "pathStopped": false,
+        "comparable": true,
+        "reasons": [],
+        "routes": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "window": "W3",
+        "version": "V1",
+        "weather": "雨",
+        "announced": true,
+        "hasObs": true,
+        "canceled": true,
+        "pathStopped": true,
+        "comparable": false,
+        "reasons": [
+          "天气为雨，未登记为可比晴好时段",
+          "存在现场取消，处理未按登记交付",
+          "存在停步道/道路中断，客流暴露被现场改变"
+        ],
+        "routes": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "window": "W4",
+        "version": "V2",
+        "weather": "晴",
+        "announced": false,
+        "hasObs": false,
+        "canceled": false,
+        "pathStopped": false,
+        "comparable": false,
+        "reasons": [
+          "不是 V1 原路线结构",
+          "备选场次未公布且未形成执行证据",
+          "没有流转观测"
+        ],
+        "routes": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "window": "W5",
+        "version": "V1",
+        "weather": "晴",
+        "announced": true,
+        "hasObs": true,
+        "canceled": false,
+        "pathStopped": false,
+        "comparable": true,
+        "reasons": [],
+        "routes": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "window": "W6",
+        "version": "V1",
+        "weather": "晴",
+        "announced": true,
+        "hasObs": true,
+        "canceled": false,
+        "pathStopped": false,
+        "comparable": true,
+        "reasons": [],
+        "routes": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "comparableWindows": [
+      "W0",
+      "W1",
+      "W2",
+      "W5",
+      "W6"
+    ],
+    "effectRows": [
+      {
+        "window": "W1",
+        "route": "A",
+        "version": "V1",
+        "direct": 1,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 2,
+        "effectiveConfirmed": 2,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W1",
+        "route": "B",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 1,
+        "neighborAddedRoutes": [
+          "A"
+        ],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W1",
+        "route": "C",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 0,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W2",
+        "route": "A",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 1,
+        "neighborAddedRoutes": [
+          "B"
+        ],
+        "effectiveFlow": 0,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W2",
+        "route": "B",
+        "version": "V1",
+        "direct": 1,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 1,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W2",
+        "route": "C",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 1,
+        "neighborAddedRoutes": [
+          "B"
+        ],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W0",
+        "route": "A",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 0,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 1,
+        "networkTickets": 3
+      },
+      {
+        "window": "W0",
+        "route": "B",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 1,
+        "networkEffectiveTickets": 1,
+        "networkTickets": 3
+      },
+      {
+        "window": "W0",
+        "route": "C",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 0,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 1,
+        "networkTickets": 3
+      },
+      {
+        "window": "W5",
+        "route": "A",
+        "version": "V1",
+        "direct": 1,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 1,
+        "networkEffectiveTickets": 3,
+        "networkTickets": 3
+      },
+      {
+        "window": "W5",
+        "route": "B",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 1,
+        "neighborAddedRoutes": [
+          "A"
+        ],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 1,
+        "networkEffectiveTickets": 3,
+        "networkTickets": 3
+      },
+      {
+        "window": "W5",
+        "route": "C",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 1,
+        "networkEffectiveTickets": 3,
+        "networkTickets": 3
+      },
+      {
+        "window": "W6",
+        "route": "A",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 1,
+        "neighborAddedRoutes": [
+          "B"
+        ],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W6",
+        "route": "B",
+        "version": "V1",
+        "direct": 1,
+        "neighbor": 0,
+        "neighborAddedRoutes": [],
+        "effectiveFlow": 1,
+        "effectiveConfirmed": 1,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      },
+      {
+        "window": "W6",
+        "route": "C",
+        "version": "V1",
+        "direct": 0,
+        "neighbor": 1,
+        "neighborAddedRoutes": [
+          "B"
+        ],
+        "effectiveFlow": 0,
+        "effectiveConfirmed": 0,
+        "networkEffectiveTickets": 2,
+        "networkTickets": 3
+      }
+    ],
+    "routeEffects": {
+      "A": {
+        "nSlots": 5,
+        "directWindows": [
+          "W1",
+          "W5"
+        ],
+        "neighborWindows": [
+          "W2",
+          "W6"
+        ],
+        "controlWindows": [
+          "W0"
+        ],
+        "assignedControlWindows": [
+          "W2",
+          "W0",
+          "W6"
+        ],
+        "effectiveFlow": {
+          "direct": {
+            "n": 2,
+            "mean": 1.5,
+            "sd": 0.7071067811865476,
+            "se": 0.5,
+            "min": 1,
+            "max": 2,
+            "values": [
+              2,
+              1
+            ]
+          },
+          "neighborOnly": {
+            "n": 2,
+            "mean": 0.5,
+            "sd": 0.7071067811865476,
+            "se": 0.5,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              1
+            ]
+          },
+          "pureControl": {
+            "n": 1,
+            "mean": 0,
+            "sd": null,
+            "se": null,
+            "min": 0,
+            "max": 0,
+            "values": [
+              0
+            ]
+          },
+          "assignedControl": {
+            "n": 3,
+            "mean": 0.3333333333333333,
+            "sd": 0.5773502691896258,
+            "se": 0.33333333333333337,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              0,
+              1
+            ]
+          },
+          "directVsPureControl": {
+            "difference": 1.5,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null,
+            "note": "至少一组不足两个时段；只报告观测差，不构造常规区间"
+          },
+          "neighborVsPureControl": {
+            "difference": 0.5,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null,
+            "note": "至少一组不足两个时段；只报告观测差，不构造常规区间"
+          },
+          "directVsAssignedControl": {
+            "difference": 1.1666666666666667,
+            "se": 0.6009252125773317,
+            "df": 1.8988764044943824,
+            "ci95": [
+              -1.4191145230535913,
+              3.752447856386925
+            ]
+          }
+        },
+        "effectiveConfirmed": {
+          "direct": {
+            "n": 2,
+            "mean": 1.5,
+            "sd": 0.7071067811865476,
+            "se": 0.5,
+            "min": 1,
+            "max": 2,
+            "values": [
+              2,
+              1
+            ]
+          },
+          "neighborOnly": {
+            "n": 2,
+            "mean": 0,
+            "sd": 0,
+            "se": 0,
+            "min": 0,
+            "max": 0,
+            "values": [
+              0,
+              0
+            ]
+          },
+          "pureControl": {
+            "n": 1,
+            "mean": 0,
+            "sd": null,
+            "se": null,
+            "min": 0,
+            "max": 0,
+            "values": [
+              0
+            ]
+          },
+          "assignedControl": {
+            "n": 3,
+            "mean": 0,
+            "sd": 0,
+            "se": 0,
+            "min": 0,
+            "max": 0,
+            "values": [
+              0,
+              0,
+              0
+            ]
+          },
+          "directVsAssignedControl": {
+            "difference": 1.5,
+            "se": 0.5,
+            "df": 1,
+            "ci95": [
+              -4.853,
+              7.853
+            ]
+          }
+        }
+      },
+      "B": {
+        "nSlots": 5,
+        "directWindows": [
+          "W2",
+          "W6"
+        ],
+        "neighborWindows": [
+          "W1",
+          "W5"
+        ],
+        "controlWindows": [
+          "W0"
+        ],
+        "assignedControlWindows": [
+          "W1",
+          "W0",
+          "W5"
+        ],
+        "effectiveFlow": {
+          "direct": {
+            "n": 2,
+            "mean": 1,
+            "sd": 0,
+            "se": 0,
+            "min": 1,
+            "max": 1,
+            "values": [
+              1,
+              1
+            ]
+          },
+          "neighborOnly": {
+            "n": 2,
+            "mean": 1,
+            "sd": 0,
+            "se": 0,
+            "min": 1,
+            "max": 1,
+            "values": [
+              1,
+              1
+            ]
+          },
+          "pureControl": {
+            "n": 1,
+            "mean": 1,
+            "sd": null,
+            "se": null,
+            "min": 1,
+            "max": 1,
+            "values": [
+              1
+            ]
+          },
+          "assignedControl": {
+            "n": 3,
+            "mean": 1,
+            "sd": 0,
+            "se": 0,
+            "min": 1,
+            "max": 1,
+            "values": [
+              1,
+              1,
+              1
+            ]
+          },
+          "directVsPureControl": {
+            "difference": 0,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null,
+            "note": "至少一组不足两个时段；只报告观测差，不构造常规区间"
+          },
+          "neighborVsPureControl": {
+            "difference": 0,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null,
+            "note": "至少一组不足两个时段；只报告观测差，不构造常规区间"
+          },
+          "directVsAssignedControl": {
+            "difference": 0,
+            "se": 0,
+            "df": null,
+            "ci95": [
+              0,
+              0
+            ],
+            "note": "观测值无样本方差；这不等于总体不确定性为零，时段数仍很少"
+          }
+        },
+        "effectiveConfirmed": {
+          "direct": {
+            "n": 2,
+            "mean": 1,
+            "sd": 0,
+            "se": 0,
+            "min": 1,
+            "max": 1,
+            "values": [
+              1,
+              1
+            ]
+          },
+          "neighborOnly": {
+            "n": 2,
+            "mean": 0.5,
+            "sd": 0.7071067811865476,
+            "se": 0.5,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              1
+            ]
+          },
+          "pureControl": {
+            "n": 1,
+            "mean": 1,
+            "sd": null,
+            "se": null,
+            "min": 1,
+            "max": 1,
+            "values": [
+              1
+            ]
+          },
+          "assignedControl": {
+            "n": 3,
+            "mean": 0.6666666666666666,
+            "sd": 0.5773502691896258,
+            "se": 0.33333333333333337,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              1,
+              1
+            ]
+          },
+          "directVsAssignedControl": {
+            "difference": 0.33333333333333337,
+            "se": 0.33333333333333337,
+            "df": 2,
+            "ci95": [
+              -1.101,
+              1.767666666666667
+            ]
+          }
+        }
+      },
+      "C": {
+        "nSlots": 5,
+        "directWindows": [],
+        "neighborWindows": [
+          "W2",
+          "W6"
+        ],
+        "controlWindows": [
+          "W1",
+          "W0",
+          "W5"
+        ],
+        "assignedControlWindows": [
+          "W1",
+          "W2",
+          "W0",
+          "W5",
+          "W6"
+        ],
+        "effectiveFlow": {
+          "direct": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "se": null,
+            "min": null,
+            "max": null,
+            "values": []
+          },
+          "neighborOnly": {
+            "n": 2,
+            "mean": 0.5,
+            "sd": 0.7071067811865476,
+            "se": 0.5,
+            "min": 0,
+            "max": 1,
+            "values": [
+              1,
+              0
+            ]
+          },
+          "pureControl": {
+            "n": 3,
+            "mean": 0.3333333333333333,
+            "sd": 0.5773502691896258,
+            "se": 0.33333333333333337,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              0,
+              1
+            ]
+          },
+          "assignedControl": {
+            "n": 5,
+            "mean": 0.4,
+            "sd": 0.5477225575051662,
+            "se": 0.24494897427831783,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          "directVsPureControl": {
+            "difference": null,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null
+          },
+          "neighborVsPureControl": {
+            "difference": 0.16666666666666669,
+            "se": 0.6009252125773317,
+            "df": 1.8988764044943824,
+            "ci95": [
+              -2.4191145230535915,
+              2.7524478563869246
+            ]
+          },
+          "directVsAssignedControl": {
+            "difference": null,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null
+          }
+        },
+        "effectiveConfirmed": {
+          "direct": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "se": null,
+            "min": null,
+            "max": null,
+            "values": []
+          },
+          "neighborOnly": {
+            "n": 2,
+            "mean": 0,
+            "sd": 0,
+            "se": 0,
+            "min": 0,
+            "max": 0,
+            "values": [
+              0,
+              0
+            ]
+          },
+          "pureControl": {
+            "n": 3,
+            "mean": 0.3333333333333333,
+            "sd": 0.5773502691896258,
+            "se": 0.33333333333333337,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              0,
+              1
+            ]
+          },
+          "assignedControl": {
+            "n": 5,
+            "mean": 0.2,
+            "sd": 0.447213595499958,
+            "se": 0.2,
+            "min": 0,
+            "max": 1,
+            "values": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "directVsAssignedControl": {
+            "difference": null,
+            "se": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "df": null
+          }
+        }
+      }
+    },
+    "networkRows": [
+      {
+        "window": "W0",
+        "addedRoutes": [],
+        "uniqueTickets": 3,
+        "effectiveTickets": 1,
+        "effectiveRate": 0.3333333333333333,
+        "routeSegments": 3,
+        "crossRouteTickets": 0
+      },
+      {
+        "window": "W1",
+        "addedRoutes": [
+          "A"
+        ],
+        "uniqueTickets": 3,
+        "effectiveTickets": 2,
+        "effectiveRate": 0.6666666666666666,
+        "routeSegments": 4,
+        "crossRouteTickets": 1
+      },
+      {
+        "window": "W2",
+        "addedRoutes": [
+          "B"
+        ],
+        "uniqueTickets": 3,
+        "effectiveTickets": 2,
+        "effectiveRate": 0.6666666666666666,
+        "routeSegments": 3,
+        "crossRouteTickets": 0
+      },
+      {
+        "window": "W5",
+        "addedRoutes": [
+          "A"
+        ],
+        "uniqueTickets": 3,
+        "effectiveTickets": 3,
+        "effectiveRate": 1,
+        "routeSegments": 3,
+        "crossRouteTickets": 0
+      },
+      {
+        "window": "W6",
+        "addedRoutes": [
+          "B"
+        ],
+        "uniqueTickets": 3,
+        "effectiveTickets": 2,
+        "effectiveRate": 0.6666666666666666,
+        "routeSegments": 3,
+        "crossRouteTickets": 0
+      }
+    ],
+    "networkEffects": {
+      "aAddVsNoA": {
+        "difference": 0.8333333333333333,
+        "se": 0.6009252125773316,
+        "df": 1.8988764044943816,
+        "ci95": [
+          -1.7524478563869244,
+          3.419114523053591
+        ]
+      },
+      "bAddVsNoB": {
+        "difference": 0,
+        "se": 0.5773502691896257,
+        "df": 2,
+        "ci95": [
+          -2.4843382083229595,
+          2.4843382083229595
+        ]
+      },
+      "anyAddVsW0": {
+        "difference": 1.25,
+        "se": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "df": null,
+        "note": "至少一组不足两个时段；只报告观测差，不构造常规区间"
+      }
+    },
+    "congestion": [
+      {
+        "window": "W1",
+        "addedRoute": "A",
+        "observedRoute": "B",
+        "version": "V1",
+        "link": "A-B",
+        "linkState": "开放",
+        "linkLimit": 60,
+        "occupancy": 59,
+        "ratio": 0.9833333333333333,
+        "threshold": 0.85,
+        "event": "限流",
+        "controlStart": 10,
+        "controlEnd": 20,
+        "status": "breach"
+      },
+      {
+        "window": "W2",
+        "addedRoute": "B",
+        "observedRoute": "A",
+        "version": "V1",
+        "link": "A-B",
+        "linkState": "开放",
+        "linkLimit": 60,
+        "occupancy": null,
+        "ratio": null,
+        "threshold": 0.85,
+        "event": null,
+        "controlStart": null,
+        "controlEnd": null,
+        "status": "unknown"
+      },
+      {
+        "window": "W2",
+        "addedRoute": "B",
+        "observedRoute": "C",
+        "version": "V1",
+        "link": "B-C",
+        "linkState": "开放",
+        "linkLimit": 35,
+        "occupancy": 29,
+        "ratio": 0.8285714285714286,
+        "threshold": 0.85,
+        "event": "正常",
+        "controlStart": 10,
+        "controlEnd": 21,
+        "status": "within_threshold"
+      },
+      {
+        "window": "W3",
+        "addedRoute": "A",
+        "observedRoute": "B",
+        "version": "V1",
+        "link": "A-B",
+        "linkState": "开放",
+        "linkLimit": 60,
+        "occupancy": 48,
+        "ratio": 0.8,
+        "threshold": 0.85,
+        "event": "停步道",
+        "controlStart": 5,
+        "controlEnd": 25,
+        "status": "within_threshold"
+      },
+      {
+        "window": "W5",
+        "addedRoute": "A",
+        "observedRoute": "B",
+        "version": "V1",
+        "link": "A-B",
+        "linkState": "开放",
+        "linkLimit": 60,
+        "occupancy": null,
+        "ratio": null,
+        "threshold": 0.85,
+        "event": null,
+        "controlStart": null,
+        "controlEnd": null,
+        "status": "unknown"
+      },
+      {
+        "window": "W6",
+        "addedRoute": "B",
+        "observedRoute": "A",
+        "version": "V1",
+        "link": "A-B",
+        "linkState": "开放",
+        "linkLimit": 60,
+        "occupancy": null,
+        "ratio": null,
+        "threshold": 0.85,
+        "event": null,
+        "controlStart": null,
+        "controlEnd": null,
+        "status": "unknown"
+      },
+      {
+        "window": "W6",
+        "addedRoute": "B",
+        "observedRoute": "C",
+        "version": "V1",
+        "link": "B-C",
+        "linkState": "开放",
+        "linkLimit": 35,
+        "occupancy": null,
+        "ratio": null,
+        "threshold": 0.85,
+        "event": null,
+        "controlStart": null,
+        "controlEnd": null,
+        "status": "unknown"
+      }
+    ],
+    "promotionByRoute": {
+      "A": {
+        "historicalVersion": "V1",
+        "directReplicates": 2,
+        "controlReplicates": 3,
+        "minObservations": 2,
+        "hasMinReplicates": true,
+        "flowAdvantage": 1.1666666666666667,
+        "confirmedAdvantage": 1.5,
+        "meetsPointAdvantage": true,
+        "congestion": [
+          {
+            "window": "W1",
+            "addedRoute": "A",
+            "observedRoute": "B",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": 59,
+            "ratio": 0.9833333333333333,
+            "threshold": 0.85,
+            "event": "限流",
+            "controlStart": 10,
+            "controlEnd": 20,
+            "status": "breach"
+          },
+          {
+            "window": "W3",
+            "addedRoute": "A",
+            "observedRoute": "B",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": 48,
+            "ratio": 0.8,
+            "threshold": 0.85,
+            "event": "停步道",
+            "controlStart": 5,
+            "controlEnd": 25,
+            "status": "within_threshold"
+          },
+          {
+            "window": "W5",
+            "addedRoute": "A",
+            "observedRoute": "B",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          }
+        ],
+        "congestionBreaches": [
+          {
+            "window": "W1",
+            "addedRoute": "A",
+            "observedRoute": "B",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": 59,
+            "ratio": 0.9833333333333333,
+            "threshold": 0.85,
+            "event": "限流",
+            "controlStart": 10,
+            "controlEnd": 20,
+            "status": "breach"
+          }
+        ],
+        "congestionUnknown": [
+          {
+            "window": "W5",
+            "addedRoute": "A",
+            "observedRoute": "B",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          }
+        ],
+        "congestionObservedWorst": 0.9833333333333333,
+        "historicalPromotionSignal": false
+      },
+      "B": {
+        "historicalVersion": "V1",
+        "directReplicates": 2,
+        "controlReplicates": 3,
+        "minObservations": 2,
+        "hasMinReplicates": true,
+        "flowAdvantage": 0,
+        "confirmedAdvantage": 0.33333333333333337,
+        "meetsPointAdvantage": true,
+        "congestion": [
+          {
+            "window": "W2",
+            "addedRoute": "B",
+            "observedRoute": "A",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          },
+          {
+            "window": "W2",
+            "addedRoute": "B",
+            "observedRoute": "C",
+            "version": "V1",
+            "link": "B-C",
+            "linkState": "开放",
+            "linkLimit": 35,
+            "occupancy": 29,
+            "ratio": 0.8285714285714286,
+            "threshold": 0.85,
+            "event": "正常",
+            "controlStart": 10,
+            "controlEnd": 21,
+            "status": "within_threshold"
+          },
+          {
+            "window": "W6",
+            "addedRoute": "B",
+            "observedRoute": "A",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          },
+          {
+            "window": "W6",
+            "addedRoute": "B",
+            "observedRoute": "C",
+            "version": "V1",
+            "link": "B-C",
+            "linkState": "开放",
+            "linkLimit": 35,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          }
+        ],
+        "congestionBreaches": [],
+        "congestionUnknown": [
+          {
+            "window": "W2",
+            "addedRoute": "B",
+            "observedRoute": "A",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          },
+          {
+            "window": "W6",
+            "addedRoute": "B",
+            "observedRoute": "A",
+            "version": "V1",
+            "link": "A-B",
+            "linkState": "开放",
+            "linkLimit": 60,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          },
+          {
+            "window": "W6",
+            "addedRoute": "B",
+            "observedRoute": "C",
+            "version": "V1",
+            "link": "B-C",
+            "linkState": "开放",
+            "linkLimit": 35,
+            "occupancy": null,
+            "ratio": null,
+            "threshold": 0.85,
+            "event": null,
+            "controlStart": null,
+            "controlEnd": null,
+            "status": "unknown"
+          }
+        ],
+        "congestionObservedWorst": 0.8285714285714286,
+        "historicalPromotionSignal": true
+      },
+      "C": {
+        "historicalVersion": "V1",
+        "directReplicates": 0,
+        "controlReplicates": 5,
+        "minObservations": 2,
+        "hasMinReplicates": false,
+        "flowAdvantage": null,
+        "confirmedAdvantage": null,
+        "meetsPointAdvantage": false,
+        "congestion": [],
+        "congestionBreaches": [],
+        "congestionUnknown": [],
+        "congestionObservedWorst": null,
+        "historicalPromotionSignal": false
+      }
+    }
+  },
+  "plan": {
+    "sessions": {
+      "W7|A": {
+        "window": "W7",
+        "route": "A",
+        "version": "V2",
+        "classification": [
+          "已公示旅行团基准承诺场次"
+        ],
+        "runnable": true,
+        "resourcesLocked": true,
+        "blockers": [],
+        "planningBlockers": [],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 58,
+          "egressReserve": 14,
+          "protectedEgressReserve": 14,
+          "usableCapacity": 44,
+          "reserved": 15,
+          "remainingAfterReservations": 29,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W7",
+            "route": "A",
+            "guide": "G1",
+            "actor": "E1",
+            "role": "旅行团基准",
+            "reserved": "15",
+            "state": "已公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W7",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [
+          "B"
+        ],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 A 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量"
+        ]
+      },
+      "W7|B": {
+        "window": "W7",
+        "route": "B",
+        "version": "V2",
+        "classification": [
+          "未公布备选场次"
+        ],
+        "runnable": false,
+        "resourcesLocked": false,
+        "blockers": [
+          "疏导/导游 G1 已被 W7 A 的已公示场次占用"
+        ],
+        "planningBlockers": [
+          "疏导/导游 G1 已被 W7 A 的已公示场次占用"
+        ],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 40,
+          "egressReserve": 18,
+          "protectedEgressReserve": 18,
+          "usableCapacity": 22,
+          "reserved": 10,
+          "remainingAfterReservations": 12,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [
+          {
+            "type": "guide",
+            "id": "G1",
+            "withRoute": "A",
+            "state": "已公示"
+          }
+        ],
+        "bookings": [
+          {
+            "window": "W7",
+            "route": "B",
+            "guide": "G1",
+            "actor": "E2",
+            "role": "候选加场",
+            "reserved": "10",
+            "state": "未公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W7",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [
+          "A"
+        ],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 B 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量",
+          "此候选补齐人员/配额前提后才可作为 B 直接加场臂"
+        ]
+      },
+      "W7|C": {
+        "window": "W7",
+        "route": "C",
+        "version": "V2",
+        "classification": [],
+        "runnable": false,
+        "resourcesLocked": false,
+        "blockers": [
+          "缺少 operations 容量/客流来源记录，不能从现有资料确认可开展"
+        ],
+        "planningBlockers": [
+          "缺少 operations 容量/客流来源记录，不能从现有资料确认可开展"
+        ],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": false,
+          "runnable": false,
+          "blockers": [
+            "缺少 operations 容量/客流来源记录，不能从现有资料确认可开展"
+          ]
+        },
+        "staffConflicts": [],
+        "bookings": [],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W7",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 C 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量",
+          "当前版本没有开放邻线，只能识别本线/全场总体效果"
+        ]
+      },
+      "W8|A": {
+        "window": "W8",
+        "route": "A",
+        "version": "V2",
+        "classification": [
+          "未公布备选场次"
+        ],
+        "runnable": true,
+        "resourcesLocked": false,
+        "blockers": [],
+        "planningBlockers": [],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 62,
+          "egressReserve": 16,
+          "protectedEgressReserve": 16,
+          "usableCapacity": 46,
+          "reserved": 8,
+          "remainingAfterReservations": 38,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W8",
+            "route": "A",
+            "guide": "G2",
+            "actor": "E2",
+            "role": "候选加场",
+            "reserved": "8",
+            "state": "未公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W8",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [
+          "B"
+        ],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 A 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量",
+          "若排班会选中此未公布候选，将其登记为 A 直接加场臂，并观测 B"
+        ]
+      },
+      "W8|B": {
+        "window": "W8",
+        "route": "B",
+        "version": "V2",
+        "classification": [
+          "未公布备选场次"
+        ],
+        "runnable": true,
+        "resourcesLocked": false,
+        "blockers": [],
+        "planningBlockers": [],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 54,
+          "egressReserve": 16,
+          "protectedEgressReserve": 16,
+          "usableCapacity": 38,
+          "reserved": 12,
+          "remainingAfterReservations": 26,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W8",
+            "route": "B",
+            "guide": "G1",
+            "actor": "E1",
+            "role": "候选加场",
+            "reserved": "12",
+            "state": "未公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W8",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [
+          "A"
+        ],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 B 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量",
+          "若排班会选中此未公布候选，将其登记为 B 直接加场臂，并观测 A"
+        ]
+      },
+      "W8|C": {
+        "window": "W8",
+        "route": "C",
+        "version": "V2",
+        "classification": [
+          "未公布备选场次"
+        ],
+        "runnable": true,
+        "resourcesLocked": false,
+        "blockers": [],
+        "planningBlockers": [],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 42,
+          "egressReserve": 10,
+          "protectedEgressReserve": 10,
+          "usableCapacity": 32,
+          "reserved": 15,
+          "remainingAfterReservations": 17,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W8",
+            "route": "C",
+            "guide": "G3",
+            "actor": "E3",
+            "role": "候选加场",
+            "reserved": "15",
+            "state": "未公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W8",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 C 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量",
+          "当前版本没有开放邻线，只能识别本线/全场总体效果",
+          "若排班会选中此未公布候选，将其登记为 C 直接加场臂，并观测 全场"
+        ]
+      },
+      "W9|A": {
+        "window": "W9",
+        "route": "A",
+        "version": "V2",
+        "classification": [
+          "已公示旅行团基准承诺场次"
+        ],
+        "runnable": true,
+        "resourcesLocked": true,
+        "blockers": [],
+        "planningBlockers": [],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 50,
+          "egressReserve": 12,
+          "protectedEgressReserve": 12,
+          "usableCapacity": 38,
+          "reserved": 10,
+          "remainingAfterReservations": 28,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W9",
+            "route": "A",
+            "guide": "G2",
+            "actor": "E2",
+            "role": "旅行团基准",
+            "reserved": "10",
+            "state": "已公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W9",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [
+          "B"
+        ],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "在 B 已固定加场时，该场是邻线暴露/溢出观测点，不是 A 直接加场臂",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量"
+        ]
+      },
+      "W9|B": {
+        "window": "W9",
+        "route": "B",
+        "version": "V2",
+        "classification": [
+          "已签周末推广（原记录不覆盖）",
+          "维修修订容量场次"
+        ],
+        "runnable": true,
+        "resourcesLocked": true,
+        "blockers": [],
+        "planningBlockers": [],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "维修",
+          "revision": 2,
+          "plannedCapacity": 47,
+          "egressReserve": 18,
+          "protectedEgressReserve": 18,
+          "usableCapacity": 29,
+          "reserved": 12,
+          "remainingAfterReservations": 17,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "最新修订为维修状态；表内仍给出下调后的容量和更大出口预留，按带修订条件执行，不能恢复旧修订容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W9",
+            "route": "B",
+            "guide": "G1",
+            "actor": "E1",
+            "role": "周末推广",
+            "reserved": "12",
+            "state": "已接受"
+          }
+        ],
+        "decision": {
+          "accepted_window": "W9",
+          "route": "B",
+          "evidence_version": "V1",
+          "kind": "周末推广",
+          "state": "已签"
+        },
+        "decisionWindow": {
+          "window": "W9",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [
+          "A"
+        ],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "该场是已公开约定的 B 线加场/推广臂，执行后成为 V2 新观测单元",
+          "可识别对 A 的邻线影响（仍需对照时段估计不确定性）",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量"
+        ]
+      },
+      "W9|C": {
+        "window": "W9",
+        "route": "C",
+        "version": "V2",
+        "classification": [
+          "未公布备选场次"
+        ],
+        "runnable": false,
+        "resourcesLocked": false,
+        "blockers": [
+          "本轮已有 1 个公开约定加场，达到 max_added=1；未公布候选不能再加"
+        ],
+        "planningBlockers": [
+          "本轮已有 1 个公开约定加场，达到 max_added=1；未公布候选不能再加"
+        ],
+        "dataGaps": [],
+        "capacity": {
+          "hasOperations": true,
+          "condition": "可用",
+          "revision": 1,
+          "plannedCapacity": 48,
+          "egressReserve": 14,
+          "protectedEgressReserve": 14,
+          "usableCapacity": 34,
+          "reserved": 10,
+          "remainingAfterReservations": 24,
+          "capacityRunnable": true,
+          "blockers": [],
+          "note": "出口预留是受保护容量，不得计作可加场容量。"
+        },
+        "staffConflicts": [],
+        "bookings": [
+          {
+            "window": "W9",
+            "route": "C",
+            "guide": "G3",
+            "actor": "E3",
+            "role": "候选加场",
+            "reserved": "10",
+            "state": "未公示"
+          }
+        ],
+        "decision": null,
+        "decisionWindow": {
+          "window": "W9",
+          "options": "A+B+C",
+          "version": "V2",
+          "max_added": "1",
+          "min_usable_comparisons": "2"
+        },
+        "openNeighbors": [],
+        "ownControl": [],
+        "adjacentControl": [],
+        "upstreamAddedResponsibility": [],
+        "analysisQuestions": [
+          "若本轮不选 C 加场，该场可作为同来源对照/基准观测",
+          "可计入全场唯一票、有效停留票和净流量，避免把转线票重复计成净增量",
+          "当前版本没有开放邻线，只能识别本线/全场总体效果",
+          "此候选补齐人员/配额前提后才可作为 C 直接加场臂"
+        ]
+      }
+    },
+    "recommendations": [
+      {
+        "window": "W7",
+        "action": "keep_baseline_hold_b_as_recorded",
+        "route": "A",
+        "decision": "A 的已公示旅行团基准场必须保留；出口预留 14 人不得挪作加场。",
+        "alternatives": [
+          "B 按现有 booking 不可直接开展：G1 同时被已公示 A 占用。",
+          "B 仍未公布，可在公示前改派一名 W7 无排班且具资格的疏导员；资料中 G2/G3 在 W7 无 booking 记录，但需排班主管确认资格。",
+          "若改派 B，可得到 V2/亲子来源的 B 加场观测；若保留 W7 为无加场对照，则它是 W9/B 最直接的同来源总体净流量对照。"
+        ]
+      },
+      {
+        "window": "W8",
+        "action": "run_one_registered_arm_prefer_A",
+        "route": "A",
+        "decision": "资料内 A/B/C 候选均容量和人员可行；为与 W9 已固定的 B 加场形成不同暴露方向，优先登记 A 为唯一加场，B 作为 A-B 开放段邻线观测点。",
+        "caveats": [
+          "W8 A/B 为团体为主，W9 A/B 为亲子混合，不能未经分层/加权直接并入同一不确定性样本。",
+          "V2 的 A-B 限值为 45；阈值 0.85 对应 38.25 人，应实测 B 段占用，不能用 operations 的可用容量代替现场占用。",
+          "C 为散客来源且 B-C 已关闭，不能作为 A/B 的同来源邻线对照；C 只能另建独立总体/直接效应序列。",
+          "这一个 W8 A 臂不足以单独满足 min_usable_comparisons=2；它是预先登记的第一臂，结论需后续同来源重复或对照补足。"
+        ]
+      },
+      {
+        "window": "W9",
+        "action": "honor_commitment_notify_identification_gap",
+        "route": "B",
+        "decision": "保留 decisions.json 中 B 的已签周末推广原记录，A 旅行团基准和 B 已接受推广均按承诺排班；B 以最新 rev2 为准：计划 47、出口预留 18、可用 29；rev1 的可用 43/预留 12 已被维修修订替代。",
+        "alternatives": [
+          "B 已占用 max_added=1，C 未公布候选不能在同一轮再加。",
+          "向 W9/B 游线及排班会发出识别条件缺失通知：V2 已关闭 B-C，V1 的 B→C 邻线拥堵/客流对照不能直接作为 V2 对照。",
+          "若无法补出同来源、同开放路段的 A 加场/B 加场/对照组合，应撤回的是“B 推广在 V2 新路线结构下仍有已识别直接+邻场优势”的新结论；V1 原范围结论和已签记录不改写。"
+        ]
+      }
+    ],
+    "selectedSchedule": [
+      {
+        "window": "W7",
+        "selectedAddedRoute": null,
+        "committedBaselineRoutes": [
+          "A"
+        ],
+        "asRecordedUnavailable": [
+          "B"
+        ],
+        "missingPlanningRecord": [
+          "C"
+        ],
+        "role": "V2/亲子来源对照与承诺基准场",
+        "contingent": {
+          "ifBeforePublication": "将 W7/B 的 G1 改派为经确认可值班的 G2/G3",
+          "then": "可改跑 B 加场重复臂，但会失去 W7 无加场对照；需另行补对照"
+        }
+      },
+      {
+        "window": "W8",
+        "selectedAddedRoute": "A",
+        "observationRoutes": [
+          "B",
+          "C"
+        ],
+        "maxAdded": 1,
+        "role": "V2/团体来源的 A 直接臂与 B 邻线观测；C 仅作独立散客层",
+        "meetsSeparateIdentificationNow": false
+      },
+      {
+        "window": "W9",
+        "selectedAddedRoute": "B",
+        "selectionSource": "decisions.json 已签周末推广 + booking 已接受",
+        "committedBaselineRoutes": [
+          "A"
+        ],
+        "blockedUnpublishedRoutes": [
+          "C"
+        ],
+        "role": "承诺周末场，同时作为 V2/亲子来源 B 直接臂与 A 邻线观测",
+        "identificationNotification": "V2_IDENTIFICATION_GAP"
+      }
+    ],
+    "identification": {
+      "targetVersion": "V2",
+      "executedTargetObservationWindows": [],
+      "historicalScope": "V1：W0/W1/W2/W5/W6，晴好且已公布",
+      "closedLinks": [
+        {
+          "version": "V2",
+          "from": "B",
+          "to": "C",
+          "state": "关闭",
+          "limit": "0"
+        }
+      ],
+      "changedLimits": [
+        {
+          "segment": "A-B",
+          "from": 60,
+          "to": 45
+        },
+        {
+          "segment": "B-C",
+          "from": 35,
+          "to": 0
+        }
+      ],
+      "failedPublishedComparisons": [
+        {
+          "window": "W9",
+          "route": "B",
+          "comparison": "B 加场 -> C 邻线 / 以 C 为相邻对照",
+          "reason": "V2 中 B-C 为关闭状态；V1 的 W2/W6 和 29/35 拥堵率只适用于开放结构"
+        }
+      ],
+      "designChecks": [
+        {
+          "source": "亲子混合",
+          "segment": "A-B 开放",
+          "windows": [
+            "W7",
+            "W9"
+          ],
+          "addByWindow": {
+            "W7": null,
+            "W9": "B"
+          },
+          "rank": 4,
+          "parameterCount": 4,
+          "rows": 4,
+          "separatePointIdentification": true,
+          "addWindows": 1,
+          "minUsableComparisons": 2,
+          "meetsReplicateThreshold": false,
+          "canReport": [
+            "W9/B 相对 W7 的 B 直接点差",
+            "B->A 邻线点差",
+            "A+B 全场总体净流量点差"
+          ],
+          "cannotReport": [
+            "达到两个登记重复时段的不确定性",
+            "A 加场方向的直接/邻场交叉验证"
+          ]
+        },
+        {
+          "source": "团体为主",
+          "segment": "A-B 开放",
+          "windows": [
+            "W8"
+          ],
+          "addByWindow": {
+            "W8": "A"
+          },
+          "rank": 2,
+          "parameterCount": 4,
+          "rows": 2,
+          "separatePointIdentification": false,
+          "addWindows": 1,
+          "minUsableComparisons": 2,
+          "meetsReplicateThreshold": false,
+          "canReport": [
+            "W8/A 单臂结果和 B 同期邻线观测"
+          ],
+          "cannotReport": [
+            "同来源内扣除路线基线后的稳定直接/邻场效应"
+          ]
+        },
+        {
+          "source": "散客为主",
+          "segment": "B-C 关闭，C 无开放邻线",
+          "windows": [
+            "W8",
+            "W9"
+          ],
+          "addByWindow": {
+            "W8": "C",
+            "W9": null
+          },
+          "rank": 2,
+          "parameterCount": 2,
+          "separatePointIdentification": false,
+          "directPointIdentification": true,
+          "addWindows": 1,
+          "minUsableComparisons": 2,
+          "meetsReplicateThreshold": false,
+          "canReport": [
+            "若选择 W8/C、保留 W9/C 为无加场观测，可得到 C 线总体/直接效应单点差"
+          ],
+          "cannotReport": [
+            "C 的邻线效应",
+            "两个登记重复时段的不确定性",
+            "W9/C 在 B 已占用 max_added 时再加"
+          ]
+        }
+      ],
+      "pooledExploratory": {
+        "rank": 4,
+        "parameterCount": 4,
+        "rows": 6,
+        "sameSource": false,
+        "registeredCriterionMet": false,
+        "note": "W7=00、W8=10、W9=01 的矩阵满秩；但 W8 为团体来源、W7/W9 为亲子来源，只能作探索性合并，不能满足预先登记的同来源要求。"
+      },
+      "withdrawal": "若不能在 V2 下补足至少两个同来源可用对比及缺失暴露方向，撤回 W9/B 在 V2 结构中的“直接+邻场效应已分别识别/可推广”表述；只报告 W7 对照与 W9/B 的同来源 A+B 总体净流量点差，W8 团体来源层另行分析。V1 原范围结论和 decisions.json 的已签记录保留。"
+    }
+  },
+  "notifications": [
+    {
+      "to": [
+        "W9",
+        "B",
+        "排班会"
+      ],
+      "code": "V2_IDENTIFICATION_GAP",
+      "message": "W9/B 的 V1 已签周末推广记录保留；但 V2 已关闭 B-C，原 B→C 邻线对照失效，且现有同来源/开放路段组合不足以分别识别 V2 直接与邻场效应。请通知 W9/B；承诺场次仍执行并按 V2 采集数据，不得把 V1 结论宣称为 V2 已验证。",
+      "preserveRecord": {
+        "accepted_window": "W9",
+        "route": "B",
+        "evidence_version": "V1",
+        "kind": "周末推广",
+        "state": "已签"
+      },
+      "identification": [
+        {
+          "window": "W9",
+          "route": "B",
+          "comparison": "B 加场 -> C 邻线 / 以 C 为相邻对照",
+          "reason": "V2 中 B-C 为关闭状态；V1 的 W2/W6 和 29/35 拥堵率只适用于开放结构"
+        }
+      ],
+      "withdrawal": "若不能在 V2 下补足至少两个同来源可用对比及缺失暴露方向，撤回 W9/B 在 V2 结构中的“直接+邻场效应已分别识别/可推广”表述；只报告 W7 对照与 W9/B 的同来源 A+B 总体净流量点差，W8 团体来源层另行分析。V1 原范围结论和 decisions.json 的已签记录保留。",
+      "continueUnrelated": [
+        "W9/A 已公示旅行团基准",
+        "其他经核对有独立证据且不受 B-C 关闭影响的周末场次"
+      ]
+    },
+    {
+      "to": [
+        "W7",
+        "B",
+        "排班会"
+      ],
+      "code": "STAFF_CONFLICT_UNPUBLISHED",
+      "message": "W7/B 候选按现 booking 与已公示 W7/A 共用 G1；未公示前可改派具资格人员，否则不得加场。已公示场次人员即使遇现场取消，也不得在同一执行窗口改派。"
+    },
+    {
+      "to": [
+        "W9",
+        "C"
+      ],
+      "code": "ADDED_QUOTA_OCCUPIED",
+      "message": "W9 max_added=1 已由 B 的公开推广占用；C 为未公布候选，不能同轮加场。"
+    }
+  ]
+}
